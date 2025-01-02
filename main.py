@@ -36,10 +36,11 @@ def find_the_word(word: str) -> None:
 
 def add_border(word: str) -> None:
     first = True
-    index = 1
+    main_index = 0
     full_colors_list = ["light_red", "red", "light_yellow", "light_green", "light_cyan", "light_blue", "light_magenta"]
     while mixer.music.get_busy():
-        index = index - 1 if index > 0 else 6
+        main_index = main_index - 1 if main_index > 0 else 6
+        index = main_index
         for i in range(5):
             print(colored("_", full_colors_list[index]), end="")
             index = index + 1 if index < 6 else 0
