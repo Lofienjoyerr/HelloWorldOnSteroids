@@ -78,7 +78,12 @@ pip install -r .\requirements.txt
 ```
 8. Зайдите в настройки Run -> Edit configurations -> Edit configuration templates, слева выберите python и включите опцию emulate terminal in output console. В зависимости от версии PyCharm данная настройка будет находиться либо внизу окна конфигурации, либо справа сверху в Modify options.
 9. Запустите файл main.py с помощью средств IDE или терминала.\
-Команда для терминала внутри IDE:
+Для запуска с помощью средств IDE не забудьте указать созданное виртуальное окружение как источник для интерпретатора Python.
+Для запуска с помощью терминала внутри IDE используйте:
 ```commandline
 python .\main.py 
 ```
+
+## Ссылка на видео YouTube
+Пример работы\
+[Hello World On Steroids](https://www.youtube.com/watch?v=h_UY4yDQ6ws)
